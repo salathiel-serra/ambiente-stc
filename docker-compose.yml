@@ -6,7 +6,7 @@ networks:
       name: ${NETWORK_NAME}
     
 services: 
-  sia:
+  transparencia:
     image: thielserra/ubuntu2204-apache-php71
     tty: true
     container_name: ${CONTAINER_NAME}
